@@ -1,0 +1,86 @@
+.dark-bg{
+    background-color: #191919;
+}
+
+
+
+@media (min-width:1024px){
+    .row {
+        width:100%;
+    }
+}
+
+.navbar{
+    padding:20px;
+}
+
+.nav-item a{
+    color:white;
+    padding-right: 34px;
+    font-size:17px;
+    font-weight:500;
+}
+
+
+.icon-bar {
+	width: 22px; 
+	height: 2px;
+	background-color: #B6B6B6;
+	display: block;
+	transition: all 0.2s;
+	margin-top: 4px
+}
+ 
+.navbar-toggler {
+  border: none;
+  background: transparent !important;
+}
+.navbar-toggler .top-bar {
+    transform: rotate(45deg);
+    transform-origin: 10% 10%;
+  }
+   
+  .navbar-toggler .middle-bar {
+    opacity: 0;
+  }
+   
+  .navbar-toggler .bottom-bar {
+    transform: rotate(-45deg);
+    transform-origin: 10% 90%;
+  }
+   
+  .navbar-toggler.collapsed .top-bar {
+    transform: rotate(0);
+  }
+   
+  .navbar-toggler.collapsed .middle-bar {
+    opacity: 1;
+  }
+   
+  .navbar-toggler.collapsed .bottom-bar {
+    transform: rotate(0);
+  }
+
+
+@media(max-width:720px){
+    .navbar{
+        padding:10px 0;
+    }
+
+    .navbar-brand{
+        padding-left: 20px;
+    }
+    .navbar ul{
+        text-align: center;
+    }
+
+    .row{
+        width:105%;
+    }
+
+    .nav-item a{
+        padding:11px 10px;
+    }
+
+    
+}
