@@ -1,0 +1,64 @@
+.banner{
+    position: relative;
+    background:url("https://demo.voidcoders.com/htmldemo/barber/main-files/assets/img/hero/hero3.jpg");
+    background-size:cover;
+}
+
+.banner::before{
+    background-color: #111111;
+    opacity: 0.612;
+    position: absolute;
+    content:'';
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    
+}
+
+.banner-content{
+    color:white;
+    position: relative;
+    padding: 250px 135px 220px;
+}
+
+.banner-content h1{
+    font-size:80px;
+}
+
+.banner-content p{
+    margin-top:30px;
+    font-size:20px;
+}
+
+.banner-content .btn-check{
+    color: white;
+    background-color:#c79e56;
+    padding:14px 15px;
+    position: relative;
+    text-transform: uppercase;
+    min-width:170px;
+}
+
+@media(max-width:720px){
+    .banner-content{
+        padding:50px 0 ;
+    }
+
+    .banner{
+        padding-top:80px;
+    }
+
+    .banner-content h1{
+        font-size:32px;
+    }
+
+    .banner-content p{
+        font-size:16px;
+    }
+
+    .banner-content .btn-check{
+        font-size:15px;
+        min-width:300px;
+    }
+}

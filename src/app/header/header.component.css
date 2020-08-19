@@ -1,5 +1,6 @@
-.dark-bg{
+.solid{
     background-color: #191919;
+    transition: 1s ease 0s;
 }
 
 
@@ -8,6 +9,10 @@
     .row {
         width:100%;
     }
+
+    .navbar-collapse{
+        padding-left:32px;
+    }
 }
 
 .navbar{
@@ -15,8 +20,8 @@
 }
 
 .nav-item a{
-    color:white;
     padding-right: 34px;
+    color:white;
     font-size:17px;
     font-weight:500;
 }
@@ -25,7 +30,7 @@
 .icon-bar {
 	width: 22px; 
 	height: 2px;
-	background-color: #B6B6B6;
+	background-color: #c79e56;
 	display: block;
 	transition: all 0.2s;
 	margin-top: 4px
@@ -80,6 +85,24 @@
 
     .nav-item a{
         padding:11px 10px;
+        font-size:13px;
+    }
+
+    .navbar-collapse{
+      background-color:#191919!important;
+    }
+
+    .navbar-menu{
+      padding:0;
+      padding-top:10px;
+    }
+
+    .navbar-nav li:first-child{
+      padding-top:20px;
+    }
+
+    .navbar-nav li:last-child{
+      padding-bottom:50px;
     }
 
     
