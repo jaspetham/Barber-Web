@@ -13,6 +13,7 @@ export class HeaderComponent implements OnInit {
   ngOnInit(): void {
   }
 
+
   @HostListener ('window:scroll', [])
   onWindowScroll(){
     if (document.body.scrollTop > 80 ||     
@@ -26,5 +27,16 @@ export class HeaderComponent implements OnInit {
 
     }
   }
+  toHome(){
+    document.getElementById("home").scrollIntoView({behavior:"smooth"});
+  }
+
+  toAbout(){
+    document.getElementById("about").scrollIntoView({behavior:"smooth"});
+  }
+  toService(){
+    document.getElementById("service").scrollIntoView({behavior:"smooth"});
+  }
+  
 
 }

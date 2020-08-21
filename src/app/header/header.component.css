@@ -3,8 +3,6 @@
     transition: 1s ease 0s;
 }
 
-
-
 @media (min-width:1024px){
     .row {
         width:100%;
@@ -19,18 +17,20 @@
     padding:20px;
 }
 
+
 .nav-item a{
     padding-right: 34px;
-    color:white;
     font-size:17px;
     font-weight:500;
+    font-family: var(--primary-font);
+    cursor: pointer;
 }
 
 
 .icon-bar {
 	width: 22px; 
 	height: 2px;
-	background-color: #c79e56;
+	background-color: var(--primary-color);
 	display: block;
 	transition: all 0.2s;
 	margin-top: 4px
