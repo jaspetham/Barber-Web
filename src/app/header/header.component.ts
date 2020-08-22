@@ -18,12 +18,12 @@ export class HeaderComponent implements OnInit {
   onWindowScroll(){
     if (document.body.scrollTop > 80 ||     
       document.documentElement.scrollTop > 80) {
-        document.getElementById('navbar').classList.add('solid');
-        document.getElementById('navbar').classList.remove('bg-transparent');
+        document.getElementById('myNavbar').classList.add('solid');
+        document.getElementById('myNavbar').classList.remove('bg-transparent');
       }
     else{
-      document.getElementById('navbar').classList.remove('solid');
-      document.getElementById('navbar').classList.add('bg-transparent');
+      document.getElementById('myNavbar').classList.remove('solid');
+      document.getElementById('myNavbar').classList.add('bg-transparent');
 
     }
   }
