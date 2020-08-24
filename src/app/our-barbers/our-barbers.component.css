@@ -97,7 +97,6 @@ h2{
 .hovereffect p.icon-links a span:before {
 	display: inline-block;
 	padding: 8px 10px;
-	speak: none;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
 }
@@ -128,4 +127,21 @@ h2{
 .hovereffect:hover p.icon-links a:first-child {
 	-webkit-transition-delay: 0.2s;
 	transition-delay: 0.2s;
+}
+
+@media(max-width:720px){
+	.barber-space{
+		padding:30px 20px;
+	}
+
+	.barber-space .title1{
+		margin-bottom: 30px;
+	}
+	.barber-profile{
+		padding:30px;
+	}
+
+	.barber-profile .title2{
+		font-size:20px;
+	}
 }

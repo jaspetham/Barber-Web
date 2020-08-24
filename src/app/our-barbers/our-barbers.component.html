@@ -1,12 +1,12 @@
 <div class="container barber-space">
-    <h2 class="text-center">Our Barbers</h2>
+    <h2 class="title1 text-center" data-aos="fade-up" data-aos-duration="1500">Our Barbers</h2>
     <div class="row">
         <div *ngFor="let barber of barbers" class="col-md-3 barber-profile">
 
             <div class="hovereffect">
                 <img class="img-responsive" src="{{barber.profilePic}}" alt="">
                     <div class="overlay">
-                        <h2>{{barber.name}}</h2>
+                        <h2 class="title2" >{{barber.name}}</h2>
                         <p class="icon-links">
                             <a href="#">
                                 <span class="fa fa-twitter"></span>
