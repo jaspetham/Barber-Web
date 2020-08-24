@@ -2,25 +2,25 @@
     <h2 class="text-center">Our Barbers</h2>
     <div class="row">
         <div *ngFor="let barber of barbers" class="col-md-3 barber-profile">
-            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
-                <div class="hovereffect">
-                    <img class="img-responsive" src="{{barber.profilePic}}" alt="">
-                        <div class="overlay">
-                            <h2>Effect 10</h2>
-                            <p class="icon-links">
-                                <a href="#">
-                                    <span class="fa fa-twitter"></span>
-                                </a>
-                                <a href="#">
-                                    <span class="fa fa-facebook"></span>
-                                </a>
-                                <a href="#">
-                                    <span class="fa fa-instagram"></span>
-                                </a>
-                            </p>
-                        </div>
-                </div>
+
+            <div class="hovereffect">
+                <img class="img-responsive" src="{{barber.profilePic}}" alt="">
+                    <div class="overlay">
+                        <h2>{{barber.name}}</h2>
+                        <p class="icon-links">
+                            <a href="#">
+                                <span class="fa fa-twitter"></span>
+                            </a>
+                            <a href="#">
+                                <span class="fa fa-facebook"></span>
+                            </a>
+                            <a href="#">
+                                <span class="fa fa-instagram"></span>
+                            </a>
+                        </p>
+                    </div>
             </div>
+            
         </div>
     </div>
 </div>

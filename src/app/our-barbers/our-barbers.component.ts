@@ -15,7 +15,7 @@ export class OurBarbersComponent implements OnInit {
   public barbers =[
     {
       profilePic: 'https://demo.voidcoders.com/htmldemo/barber/main-files/assets/img/team/team1.jpg',
-      name: 'Jasper',
+      name: 'Solicon Man',
       twitter: 'fab fa-twitter',
       facebook:'fab fa-facebook',
       instagram:'fab fa-instagram',
@@ -23,7 +23,7 @@ export class OurBarbersComponent implements OnInit {
     },
     {
       profilePic: 'https://demo.voidcoders.com/htmldemo/barber/main-files/assets/img/team/team2.jpg',
-      name: 'Bob',
+      name: 'Bob Robert',
       twitter: 'fab fa-twitter',
       facebook:'fab fa-facebook',
       instagram:'fab fa-instagram',
@@ -31,7 +31,7 @@ export class OurBarbersComponent implements OnInit {
     },
     {
       profilePic: 'https://demo.voidcoders.com/htmldemo/barber/main-files/assets/img/team/team3.jpg',
-      name: 'Jason',
+      name: 'Jason Dough',
       twitter: 'fab fa-twitter',
       facebook:'fab fa-facebook',
       instagram:'fab fa-instagram',
@@ -39,7 +39,7 @@ export class OurBarbersComponent implements OnInit {
     },
     {
       profilePic: 'https://demo.voidcoders.com/htmldemo/barber/main-files/assets/img/team/team4.jpg',
-      name: 'Batman',
+      name: 'Batman Superman',
       twitter: 'fab fa-twitter',
       facebook:'fab fa-facebook',
       instagram:'fab fa-instagram',
