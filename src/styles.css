@@ -14,3 +14,7 @@ html {
 #service{
     background-color:var(--secondary-color);
 }
+
+#works{
+    background-color: var(--secondary-color);
+}

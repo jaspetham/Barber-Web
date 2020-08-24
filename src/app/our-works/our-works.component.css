@@ -1,0 +1,23 @@
+.work-space{
+    padding:80px 0;
+    position: relative;
+}
+
+h2{
+    font-size:40px;
+    font-weight:700;
+    margin-bottom:0;
+    font-family: var(--title-font);
+    margin-bottom:80px;
+    color:white;
+}
+
+.work-space img{
+    width:100%;
+}
+
+@media(max-width:720px){
+    .work-space{
+        padding:80px 20px;
+    }
+}
