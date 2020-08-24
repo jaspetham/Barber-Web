@@ -7,15 +7,9 @@ import {  AdvancedLayout, GridLayout, Image, LineLayout,PlainGalleryConfig,Plain
   styleUrls: ['./our-works.component.css']
 })
 export class OurWorksComponent implements OnInit {
-
-  plainGalleryRow: PlainGalleryConfig = {
-    strategy: PlainGalleryStrategy.ROW,
-    layout: new LineLayout({ width: '320px', height: '320px' }, { length: 2, wrap: true }, 'flex-start')
-  };
- 
   plainGalleryGrid: PlainGalleryConfig = {
     strategy: PlainGalleryStrategy.GRID,
-    layout: new GridLayout({ width: '400px', height: '400px' }, { length: 3, wrap: true })
+    layout: new GridLayout({ width: '370px', height: '370px' }, { length: 3, wrap: true })
   };
 
   images: Image[] = [
