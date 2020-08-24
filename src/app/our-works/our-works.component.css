@@ -15,9 +15,12 @@ h2{
 .work-space img{
     width:100%;
 }
-
 @media(max-width:720px){
     .work-space{
         padding:80px 20px;
+    }
+    
+    .work-content{
+        pointer-events: none;
     }
 }

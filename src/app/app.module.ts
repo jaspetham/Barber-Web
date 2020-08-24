@@ -1,6 +1,12 @@
+
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+
+import 'hammerjs';
+import 'mousetrap';
+import { GalleryModule } from '@ks89/angular-modal-gallery';
+
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { BannerComponent } from './banner/banner.component';
@@ -8,6 +14,10 @@ import { AboutUsComponent } from './about-us/about-us.component';
 import { ServiceComponent } from './service/service.component';
 import { OurBarbersComponent } from './our-barbers/our-barbers.component';
 import { OurWorksComponent } from './our-works/our-works.component';
+
+
+
+
 
 @NgModule({
   declarations: [
@@ -21,9 +31,12 @@ import { OurWorksComponent } from './our-works/our-works.component';
   ],
   imports: [
     BrowserModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    GalleryModule.forRoot()
   ],
-  providers: [],
+  providers: [
+    
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
