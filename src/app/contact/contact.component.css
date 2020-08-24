@@ -78,6 +78,7 @@ form .btn{
 @media(max-width:720px){
     .contact-space{
         padding:80px 20px;
+        text-align: center;
     }
 
     .iframe-container{

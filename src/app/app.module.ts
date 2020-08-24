@@ -15,6 +15,7 @@ import { ServiceComponent } from './service/service.component';
 import { OurBarbersComponent } from './our-barbers/our-barbers.component';
 import { OurWorksComponent } from './our-works/our-works.component';
 import { ContactComponent } from './contact/contact.component';
+import { FooterComponent } from './footer/footer.component';
 
 
 
@@ -29,7 +30,8 @@ import { ContactComponent } from './contact/contact.component';
     ServiceComponent,
     OurBarbersComponent,
     OurWorksComponent,
-    ContactComponent
+    ContactComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
