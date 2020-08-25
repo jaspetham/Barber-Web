@@ -3,6 +3,8 @@
     transition: 1s ease 0s;
 }
 
+
+
 @media (min-width:1024px){
     .row {
         width:100%;
